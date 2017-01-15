@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		115BA2BE1E251327005EB2F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 115BA2BD1E251327005EB2F6 /* main.m */; };
 		115BA2C11E251327005EB2F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 115BA2C01E251327005EB2F6 /* AppDelegate.m */; };
-		115BA2C41E251328005EB2F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115BA2C31E251328005EB2F6 /* ViewController.m */; };
+		115BA2C41E251328005EB2F6 /* NoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115BA2C31E251328005EB2F6 /* NoteListViewController.m */; };
 		115BA2C71E251328005EB2F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115BA2C51E251328005EB2F6 /* Main.storyboard */; };
 		115BA2CA1E251328005EB2F6 /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 115BA2C81E251328005EB2F6 /* Notes.xcdatamodeld */; };
 		115BA2CC1E251328005EB2F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115BA2CB1E251328005EB2F6 /* Assets.xcassets */; };
 		115BA2CF1E251328005EB2F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115BA2CD1E251328005EB2F6 /* LaunchScreen.storyboard */; };
 		115BA2DA1E251328005EB2F6 /* NotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 115BA2D91E251328005EB2F6 /* NotesTests.m */; };
 		115BA2E51E251328005EB2F6 /* NotesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 115BA2E41E251328005EB2F6 /* NotesUITests.m */; };
+		115BA2FA1E251EB9005EB2F6 /* NotesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 115BA2F91E251EB9005EB2F6 /* NotesTableViewCell.m */; };
+		115BA3591E253DA8005EB2F6 /* Note+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 115BA3561E253DA8005EB2F6 /* Note+CoreDataClass.m */; };
+		115BA35A1E253DA8005EB2F6 /* Note+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 115BA3581E253DA8005EB2F6 /* Note+CoreDataProperties.m */; };
+		11E444941E260D1900E92FAA /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E444931E260D1900E92FAA /* AddNoteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +44,8 @@
 		115BA2BD1E251327005EB2F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		115BA2BF1E251327005EB2F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		115BA2C01E251327005EB2F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		115BA2C21E251327005EB2F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		115BA2C31E251328005EB2F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		115BA2C21E251327005EB2F6 /* NoteListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteListViewController.h; sourceTree = "<group>"; };
+		115BA2C31E251328005EB2F6 /* NoteListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteListViewController.m; sourceTree = "<group>"; };
 		115BA2C61E251328005EB2F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		115BA2C91E251328005EB2F6 /* Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notes.xcdatamodel; sourceTree = "<group>"; };
 		115BA2CB1E251328005EB2F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +57,14 @@
 		115BA2E01E251328005EB2F6 /* NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		115BA2E41E251328005EB2F6 /* NotesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesUITests.m; sourceTree = "<group>"; };
 		115BA2E61E251328005EB2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115BA2F81E251EB9005EB2F6 /* NotesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesTableViewCell.h; sourceTree = "<group>"; };
+		115BA2F91E251EB9005EB2F6 /* NotesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesTableViewCell.m; sourceTree = "<group>"; };
+		115BA3551E253DA8005EB2F6 /* Note+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Note+CoreDataClass.h"; sourceTree = "<group>"; };
+		115BA3561E253DA8005EB2F6 /* Note+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Note+CoreDataClass.m"; sourceTree = "<group>"; };
+		115BA3571E253DA8005EB2F6 /* Note+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Note+CoreDataProperties.h"; sourceTree = "<group>"; };
+		115BA3581E253DA8005EB2F6 /* Note+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Note+CoreDataProperties.m"; sourceTree = "<group>"; };
+		11E444921E260D1900E92FAA /* AddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteViewController.h; sourceTree = "<group>"; };
+		11E444931E260D1900E92FAA /* AddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,10 @@
 		115BA2B01E251327005EB2F6 = {
 			isa = PBXGroup;
 			children = (
+				115BA3551E253DA8005EB2F6 /* Note+CoreDataClass.h */,
+				115BA3561E253DA8005EB2F6 /* Note+CoreDataClass.m */,
+				115BA3571E253DA8005EB2F6 /* Note+CoreDataProperties.h */,
+				115BA3581E253DA8005EB2F6 /* Note+CoreDataProperties.m */,
 				115BA2BB1E251327005EB2F6 /* Notes */,
 				115BA2D81E251328005EB2F6 /* NotesTests */,
 				115BA2E31E251328005EB2F6 /* NotesUITests */,
@@ -105,9 +121,13 @@
 			children = (
 				115BA2BF1E251327005EB2F6 /* AppDelegate.h */,
 				115BA2C01E251327005EB2F6 /* AppDelegate.m */,
-				115BA2C21E251327005EB2F6 /* ViewController.h */,
-				115BA2C31E251328005EB2F6 /* ViewController.m */,
+				115BA2C21E251327005EB2F6 /* NoteListViewController.h */,
+				115BA2C31E251328005EB2F6 /* NoteListViewController.m */,
 				115BA2C51E251328005EB2F6 /* Main.storyboard */,
+				115BA2F81E251EB9005EB2F6 /* NotesTableViewCell.h */,
+				115BA2F91E251EB9005EB2F6 /* NotesTableViewCell.m */,
+				11E444921E260D1900E92FAA /* AddNoteViewController.h */,
+				11E444931E260D1900E92FAA /* AddNoteViewController.m */,
 				115BA2CB1E251328005EB2F6 /* Assets.xcassets */,
 				115BA2CD1E251328005EB2F6 /* LaunchScreen.storyboard */,
 				115BA2D01E251328005EB2F6 /* Info.plist */,
@@ -210,7 +230,6 @@
 				TargetAttributes = {
 					115BA2B81E251327005EB2F6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 57XEBN6426;
 						ProvisioningStyle = Automatic;
 					};
 					115BA2D41E251328005EB2F6 = {
@@ -279,7 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				115BA2C41E251328005EB2F6 /* ViewController.m in Sources */,
+				11E444941E260D1900E92FAA /* AddNoteViewController.m in Sources */,
+				115BA2C41E251328005EB2F6 /* NoteListViewController.m in Sources */,
+				115BA3591E253DA8005EB2F6 /* Note+CoreDataClass.m in Sources */,
+				115BA35A1E253DA8005EB2F6 /* Note+CoreDataProperties.m in Sources */,
+				115BA2FA1E251EB9005EB2F6 /* NotesTableViewCell.m in Sources */,
 				115BA2C11E251327005EB2F6 /* AppDelegate.m in Sources */,
 				115BA2BE1E251327005EB2F6 /* main.m in Sources */,
 				115BA2CA1E251328005EB2F6 /* Notes.xcdatamodeld in Sources */,
@@ -431,7 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 57XEBN6426;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Notes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SPG.Notes;
@@ -443,7 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 57XEBN6426;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Notes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SPG.Notes;
@@ -520,6 +543,7 @@
 				115BA2EB1E251328005EB2F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		115BA2EC1E251328005EB2F6 /* Build configuration list for PBXNativeTarget "NotesTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +552,7 @@
 				115BA2EE1E251328005EB2F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		115BA2EF1E251328005EB2F6 /* Build configuration list for PBXNativeTarget "NotesUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +561,7 @@
 				115BA2F11E251328005EB2F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
